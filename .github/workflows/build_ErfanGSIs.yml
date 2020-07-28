@@ -6,7 +6,7 @@ env:
   ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l79031/L79031_ROW_OPEN_USER_Q00114.1a_Q_ROW_12.0.099_ST_200721_qpst.zip
   ROM_NAME: ZUI
   ZIP_NAME: ZUI
-  TZ: America/Sao_Paulo
+  TZ: Europe/London
   MIR: gof
 jobs:
   build:
@@ -35,7 +35,7 @@ jobs:
               pip install pyrogram tgcrypto
 
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/HitaloSama/ErfanGSIs.git
+         run: git clone --recurse-submodules https://github.com/amyGSI/ErfanGSIs.git
 
        - name: Setting up ErfanGSI requirements
          run: |
