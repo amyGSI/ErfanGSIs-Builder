@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION="0.2"
-CHATS=(-1001301634008)
+CHATS=(-100968189873)
 DEBUG=false
 DRY_RUN=false
 
