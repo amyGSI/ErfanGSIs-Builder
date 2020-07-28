@@ -3,7 +3,7 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/moto/channel/official/RETAIL/CHANNEL_RETAIL_10_QPYS30.52-22-2_cid50_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
+  ROM_URL: https://mirrors.lolinet.com/firmware/moto/channel/official/RETEU/XT1952-1_CHANNEL_RETEU_10_QPYS30.52-22-2_cid50_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
   ROM_NAME: Moto
   ZIP_NAME: Moto
   TZ: Europe/London
