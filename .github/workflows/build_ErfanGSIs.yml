@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l79031/L79031_ROW_OPEN_USER_Q00114.1a_Q_ROW_12.0.099_ST_200721_qpst.zip
-  ROM_NAME: ZUI
-  ZIP_NAME: ZUI
+  ROM_URL: https://mirrors.lolinet.com/firmware/moto/channel/official/RETAIL/CHANNEL_RETAIL_10_QPYS30.52-22-2_cid50_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
+  ROM_NAME: Moto
+  ZIP_NAME: Moto
   TZ: Europe/London
   MIR: gof
 jobs:
