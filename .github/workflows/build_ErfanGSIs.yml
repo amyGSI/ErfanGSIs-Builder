@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://download2284.mediafire.com/ys81z7kgrh9g/us4hreg98fmak8z/ROMProvider.COM_A3+Lite+MP+SW.zip
-  ROM_NAME: Generic-Binder
-  ZIP_NAME: Generic-Binder
+  ROM_URL: https://bigota.d.miui.com/V11.0.9.0.PCPINXM/olivelite_in_global_images_V11.0.9.0.PCPINXM_20200530.0000.00_9.0_in_4b0301f238.tgz
+  ROM_NAME: MIUI-Binder
+  ZIP_NAME: MIUI-Binder
   TZ: Europe/London
   MIR: gof
 jobs:
