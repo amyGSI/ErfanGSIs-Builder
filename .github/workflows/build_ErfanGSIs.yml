@@ -3,7 +3,7 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://drive.google.com/uc?export=download&confirm=FXgu&id=1Rec4ZIJOLppV4neMiDDnBMFwlZ9vAOT4
+  ROM_URL: http://download2284.mediafire.com/ys81z7kgrh9g/us4hreg98fmak8z/ROMProvider.COM_A3+Lite+MP+SW.zip
   ROM_NAME: Generic-Binder
   ZIP_NAME: Generic-Binder
   TZ: Europe/London
