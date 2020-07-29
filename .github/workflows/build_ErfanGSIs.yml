@@ -36,7 +36,6 @@ jobs:
 
        - name: Clone ErfanGSI Source Code
          run: git clone --recurse-submodules https://github.com/amyGSI/ErfanGSIs.git
-https://drive.google.com/uc?export=download&confirm=FXgu&id=1Rec4ZIJOLppV4neMiDDnBMFwlZ9vAOT4
        - name: Setting up ErfanGSI requirements
          run: |
               sudo chmod -R 777 ErfanGSIs
