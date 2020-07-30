@@ -42,7 +42,7 @@ jobs:
               cd ErfanGSIs
               sudo bash setup.sh
 
-       - name: Execute Shell Script
+       - name: Porting GSI
          env:
               TOKEN: ${{ secrets.BOT_TOKEN }}
               
