@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://download.pixelexperience.org/changelog/whyred/PixelExperience_whyred-10.0-20200801-1308-OFFICIAL.zip
-  ROM_NAME: Generic
-  ZIP_NAME: PixelExperience
+  ROM_URL: https://dl.google.com/developers/android/rvc/images/factory/coral-rpb3.200720.005-factory-13069eef.zip
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel4XL
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
