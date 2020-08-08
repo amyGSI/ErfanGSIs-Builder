@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZE620KL/UL-ASUS_X00QD-ASUS-AOSP-17.0615.2005.25-1.1.1-user.zip
-  ROM_NAME: Generic
-  ZIP_NAME: ZenuiAsus
+  ROM_URL: https://downloads.sourceforge.net/project/evolution-x/lavender/EvolutionX_4.6_lavender-10.0-20200804-1226-OFFICIAL.zip?r=android-app%3A%2F%2Forg.telegram.messenger%2F&ts=1596899313&use_mirror=nchc
+  ROM_NAME: EvolutionX
+  ZIP_NAME: EvoX
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
