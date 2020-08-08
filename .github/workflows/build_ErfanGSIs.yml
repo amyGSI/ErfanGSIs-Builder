@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://dl.google.com/developers/android/rvc/images/factory/coral-rpb3.200720.005-factory-13069eef.zip
-  ROM_NAME: Pixel
-  ZIP_NAME: Pixel4XL
+  ROM_URL: https://get.pixelexperience.org/YUEvMDc0Lzl4aGFzalQxd0ErcWdNckxVU3dkcUxLbVRram5waWs3ZkQwN1hoYUJKWWUrVmU0MjNjdG5TUjhla0F4Z1d5L21sS0R4dGtBSGYvblQzaEJERkVla3lPRVRqblRjR21DeHA3RFRtVDJJUXVzbzBOMmdmeElIM0RhT1c=/PixelExperience_Plus_raphael-10.0-20200710-0246-OFFICIAL.zip
+  ROM_NAME: Generic
+  ZIP_NAME: PixelExperiencePlus
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
