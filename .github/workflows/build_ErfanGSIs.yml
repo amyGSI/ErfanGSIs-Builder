@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l19111/L19111_CN_OPEN_USER_SC9863_P_DRV_11.0.276_ST_200801.zip
+  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZE620KL/UL-ASUS_X00QD-ASUS-AOSP-17.0615.2005.25-1.1.1-user.zip
   ROM_NAME: Generic
-  ZIP_NAME: ZuiLenovo
+  ZIP_NAME: ZenuiAsus
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
