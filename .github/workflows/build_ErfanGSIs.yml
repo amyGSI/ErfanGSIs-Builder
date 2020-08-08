@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://ava3.androidfilehost.com/dl/SBw8QE8rCku4FxbXTKdsoQ/1596999841/4349826312261747442/A505FDDS4ATB6_A505FOJM4ATA1_XSG.zip
-  ROM_NAME: OneUI
-  ZIP_NAME: OneUI
+  ROM_URL: https://master.dl.sourceforge.net/project/projectsakura/violet/ProjectSakura-GAPPS-2.Q-20200807-1751-violet-OFFICIAL.zip
+  ROM_NAME: Generic
+  ZIP_NAME: ProjectSakura
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
