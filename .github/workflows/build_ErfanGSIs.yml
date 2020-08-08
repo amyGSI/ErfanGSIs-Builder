@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/evolution-x/lavender/EvolutionX_4.6_lavender-10.0-20200804-1226-OFFICIAL.zip?r=android-app%3A%2F%2Forg.telegram.messenger%2F&ts=1596899313&use_mirror=nchc
-  ROM_NAME: EvolutionX
-  ZIP_NAME: EvoX
+  ROM_URL: https://downloads.sourceforge.net/project/miui-for-mi-a3/MIUI_Xiaomi.eu/Weekly/xiaomi.eu_MIA3_20.8.6_v12-10-BITNET.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fmiui-for-mi-a3%2Ffiles%2FMIUI_Xiaomi.eu%2FWeekly%2F&ts=1596908638&use_mirror=nchc596899313&use_mirror=nchc
+  ROM_NAME: MIUI
+  ZIP_NAME: XiaomiEU
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
