@@ -4,7 +4,7 @@ on: [push]
 
 env:
   ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l19111/L19111_CN_OPEN_USER_SC9863_P_DRV_11.0.276_ST_200801.zip
-  ROM_NAME: ZUI
+  ROM_NAME: Generic
   ZIP_NAME: ZuiLenovo
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
