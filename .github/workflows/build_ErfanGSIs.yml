@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/project-fluid/curtana/ten/gapped/FluidOS-0.6-Quenol-OFFICIAL-curtana-20200807-gapped.zip?r=https%3A%2F%2Fwww.pling.com%2Fdl%3Ffile_id%3D1596815413%26file_type%3Dapplication%2Foctet-stream%26file_name%3Ddownload-20200807154334%26file_size%3D248%26has_torrent%3D0%26project_id%3D1406177%26link_type%3Ddownload%26is_external%3Dtrue%26external_link%3Dhttps%253A%252F%252Fsourceforge.net%252Fprojects%252Fproject-fluid%252Ffiles%252Fcurtana%252Ften%252Fgapped%252FFluidOS-0.6-Quenol-OFFICIAL-curtana-20200807-gapped.zip%252Fdownload&ts=1596909831&use_mirror=deac-riga
-  ROM_NAME: Generic
-  ZIP_NAME: Fluid
+  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZS600KL/UL-ASUS_Z01QD_1-ASUS-16.0420.1911.6-1.1.134-user.zip
+  ROM_NAME: RogUI
+  ZIP_NAME: ROGUI
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
