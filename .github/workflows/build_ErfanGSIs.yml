@@ -3,10 +3,10 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.4.0.PCGMIXM/cereus_global_images_V11.0.4.0.PCGMIXM_20200527.0000.00_9.0_global_f6d253e00b.tgz
-  ROM_NAME: MIUI-Binder
-  ZIP_NAME: MIUI-Binder
-  TZ: Europe/London
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus6TOxygen_34_OTA_045_all_2004142152_09a6b6789a7843e6.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: OxygenOS
+  TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
   build:
