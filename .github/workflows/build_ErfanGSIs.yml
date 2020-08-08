@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/16xs/8.20.8.6/cn_daily/20200806003622/98f7b331/update.zip
-  ROM_NAME: Flyme
-  ZIP_NAME: Flyme8
+  ROM_URL: https://download.pixelexperience.org/changelog/whyred/PixelExperience_whyred-10.0-20200801-1308-OFFICIAL.zip
+  ROM_NAME: Generic
+  ZIP_NAME: PixelExperience
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
