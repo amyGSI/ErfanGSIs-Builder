@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZS600KL/UL-ASUS_Z01QD_1-ASUS-16.0420.1911.6-1.1.134-user.zip
-  ROM_NAME: RogUI
-  ZIP_NAME: ROGUI
+  ROM_URL: https://ava3.androidfilehost.com/dl/SBw8QE8rCku4FxbXTKdsoQ/1596999841/4349826312261747442/A505FDDS4ATB6_A505FOJM4ATA1_XSG.zip
+  ROM_NAME: OneUI
+  ZIP_NAME: OneUI
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
