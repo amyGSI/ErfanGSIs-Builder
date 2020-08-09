@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://shift.dlrom.workers.dev/ShapeShiftOS_Torchic-1.1.1_violet-10.0-20200806-1419-OFFICIAL.zip
+  ROM_URL: https://downloads.sourceforge.net/project/xtended/onclite/Xtended-XQ-v11.5-onclite-OFFICIAL-20200727.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fxtended%2Ffiles%2Fonclite%2FXtended-XQ-v11.5-onclite-OFFICIAL-20200727.zip%2Fdownload&ts=1596963880&use_mirror=ayera
   ROM_NAME: Generic
-  ZIP_NAME: ShapeShiftOS
+  ZIP_NAME: MSMXtended
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
