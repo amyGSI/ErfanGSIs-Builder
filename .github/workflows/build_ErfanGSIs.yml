@@ -3,7 +3,7 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH1701/CPH1701EX_11_OTA_035_all_201808092142.zip
+  ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH1911/CPH1911EX_11_OTA_0450_all_hNIPHOqYui9L.ozip
   ROM_NAME: ColorOS
   ZIP_NAME: ColorOS
   TZ: Asia/Ho_Chi_Minh
