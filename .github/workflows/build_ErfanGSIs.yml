@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/project-fluid/vince/ten/gapped/FluidOS-0.6-Quenol-OFFICIAL-vince-20200806-gapped.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fproject-fluid%2Ffiles%2Fvince%2Ften%2Fgapped%2FFluidOS-0.6-Quenol-OFFICIAL-vince-20200806-gapped.zip%2Fdownload%3Fuse_mirror%3Dayera&ts=1596956527&use_mirror=ayera
+  ROM_URL: https://downloads.sourceforge.net/project/teamphenom/lavender/weekly/XMORZ_MIUI12_lavender_20.8.6.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fteamphenom%2Ffiles%2Flavender%2Fweekly%2FXMORZ_MIUI12_lavender_20.8.6.zip%2Fdownload&ts=1596957498&use_mirror=ayera
   ROM_NAME: Generic
-  ZIP_NAME: Fluid
+  ZIP_NAME: MIUIXMorz
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
