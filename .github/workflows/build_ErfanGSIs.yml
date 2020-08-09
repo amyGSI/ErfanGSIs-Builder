@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://ayera.dl.sourceforge.net/project/evolution-x/lavender/EvolutionX_4.6_lavender-10.0-20200804-1226-OFFICIAL.zip
-  ROM_NAME: EvolutionX
-  ZIP_NAME: EvoX
+  ROM_URL: https://build.aospa.co/updates/onc/pa-quartz-4-onc-20200729.zip
+  ROM_NAME: Generic
+  ZIP_NAME: AOSPA
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
