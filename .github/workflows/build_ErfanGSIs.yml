@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/ctl-sprout/STOCK-ROMS/CTL-354H-0-00WW-B01-9.0-HB.zip?r=https%3A%2F%2Fraghuvarma331.github.io%2FNokia-SDM660-Stock-ROMS%2F&ts=1596976411&use_mirror=ayera
+  ROM_URL: https://mirrors.lolinet.com/firmware/moto/kane/official/RETAIL/KANE_RETAIL_10_QSA30.62-24_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
   ROM_NAME: Generic
-  ZIP_NAME: HMD7.1
+  ZIP_NAME: Moto
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
