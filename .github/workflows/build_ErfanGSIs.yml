@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH1911/CPH1911EX_11_OTA_0450_all_hNIPHOqYui9L.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_URL: https://dl.google.com/developers/android/rvc/images/ota/coral-ota-rpb3.200720.005-b3d3353b.zip
+  ROM_NAME: Pixel
+  ZIP_NAME: PixelR
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
