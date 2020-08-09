@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://dl.google.com/developers/android/rvc/images/ota/coral-ota-rpb3.200720.005-b3d3353b.zip
-  ROM_NAME: Pixel
-  ZIP_NAME: PixelR
+  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZS660KL/UL-ASUS_I001_1-CN-17.0240.2007.27-1.1.205-user.zip
+  ROM_NAME: RogUI
+  ZIP_NAME: ROGUI
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
