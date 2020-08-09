@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://master.dl.sourceforge.net/project/projectsakura/violet/ProjectSakura-GAPPS-2.Q-20200807-1751-violet-OFFICIAL.zip
-  ROM_NAME: Generic
-  ZIP_NAME: ProjectSakura
+  ROM_URL: https://ayera.dl.sourceforge.net/project/evolution-x/lavender/EvolutionX_4.6_lavender-10.0-20200804-1226-OFFICIAL.zip
+  ROM_NAME: EvolutionX
+  ZIP_NAME: EvoX
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
