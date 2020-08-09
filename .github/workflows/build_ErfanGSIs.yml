@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/posp/lavender/croquette/potato_lavender-10-20200619-croquette.v3.2.0-hotfix%2B16.Official.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fposp%2Ffiles%2Flavender%2Fcroquette%2F&ts=1596964608&use_mirror=nchc
-  ROM_NAME: Generic
-  ZIP_NAME: POSP
+  ROM_URL: http://download.h2os.com/OnePlus7T%20Pro/OBT/OnePlus7TProHydrogen_13.X.07_OTA_007_all_2007030054_b16031cb06674e3d.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: HydrogenOS
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
