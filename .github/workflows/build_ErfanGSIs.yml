@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/xtended/whyred/Xtended-XQ-v11.5-whyred-OFFICIAL-20200726.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fxtended%2Ffiles%2Fwhyred%2FXtended-XQ-v11.5-whyred-OFFICIAL-20200726.zip%2Fdownload&ts=1596964301&use_mirror=ayera
+  ROM_URL: https://downloads.sourceforge.net/project/posp/lavender/croquette/potato_lavender-10-20200619-croquette.v3.2.0-hotfix%2B16.Official.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fposp%2Ffiles%2Flavender%2Fcroquette%2F&ts=1596964608&use_mirror=nchc
   ROM_NAME: Generic
-  ZIP_NAME: MSMXtended
+  ZIP_NAME: POSP
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
