@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://build.aospa.co/updates/onc/pa-quartz-4-onc-20200729.zip
-  ROM_NAME: Generic
-  ZIP_NAME: AOSPA
+  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus7ProOxygen/OnePlus7ProOxygen_13.W.41_GLO_041_2007291643/OnePlus7ProOxygen_13.W.41_OTA_041_all_2007291643_5f80f3e.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: OxygenOS
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
