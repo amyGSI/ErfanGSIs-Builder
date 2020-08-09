@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/teamphenom/lavender/weekly/XMORZ_MIUI12_lavender_20.8.6.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fteamphenom%2Ffiles%2Flavender%2Fweekly%2FXMORZ_MIUI12_lavender_20.8.6.zip%2Fdownload&ts=1596957498&use_mirror=ayera
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUIXMorz
+  ROM_URL: https://otbot.adyatan.workers.dev/PixelExperience_Plus_onclite-10.0-20200801-1214-UNOFFICIAL.zip
+  ROM_NAME: Generic
+  ZIP_NAME: PixelExperiencePlus
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
