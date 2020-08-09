@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/blissroms/Q/lavender/Bliss-v12.10-lavender-OFFICIAL-20200808.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fblissroms%2Ffiles%2FQ%2Flavender%2FBliss-v12.10-lavender-OFFICIAL-20200808.zip%2Fdownload&ts=1596964137&use_mirror=ayera
+  ROM_URL: https://downloads.sourceforge.net/project/xtended/whyred/Xtended-XQ-v11.5-whyred-OFFICIAL-20200726.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fxtended%2Ffiles%2Fwhyred%2FXtended-XQ-v11.5-whyred-OFFICIAL-20200726.zip%2Fdownload&ts=1596964301&use_mirror=ayera
   ROM_NAME: Generic
-  ZIP_NAME: Bliss
+  ZIP_NAME: MSMXtended
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
