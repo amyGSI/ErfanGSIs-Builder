@@ -3,7 +3,7 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/moto/evert/official/RETEU/XT1926-2_EVERT_RETEU_DS_9.0_PPWS29.116-20-20_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zipz
+  ROM_URL: https://mirrors.lolinet.com/firmware/moto/liber/official/RETEU/XT2067-1_LIBER_RETEU_10_QPI30.73-16-5_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zipCFC.xml.zipz
   ROM_NAME: Moto
   ZIP_NAME: Moto-64
   TZ: Europe/London
