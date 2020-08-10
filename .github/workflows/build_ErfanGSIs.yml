@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://bigota.d.miui.com/V12.0.0.3.QEJMIXM/miui_POCOF1Global_V12.0.0.3.QEJMIXM_717b8159c6_10.0.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUI 12 64
+  ROM_URL: https://downloads.sourceforge.net/project/shapeshiftos/riva/ShapeShiftOS_Torchic-1.1.1_riva-10.0-20200806-0759-OFFICIAL.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fshapeshiftos%2Ffiles%2Friva%2FShapeShiftOS_Torchic-1.1.1_riva-10.0-20200806-0759-OFFICIAL.zip%2Fdownload&ts=1597089748&use_mirror=netix
+  ROM_NAME: Generic
+  ZIP_NAME: ShapeShiftOS
   TZ: Europe/London
   MIR: gof
 jobs:
