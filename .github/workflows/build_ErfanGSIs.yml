@@ -3,8 +3,8 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://groot.drk1.workers.dev/0:/OnePlus8ProHydrogen_15_OTA_0020_all_2008081530_b221f92041374dd0.zip
-  ROM_NAME: Generic
+  ROM_URL: http://download.h2os.com/OnePlus6/MP/OnePlus6Hydrogen_22_OTA_045_all_2007191519_ee6c4149df3441ca.zip
+  ROM_NAME: OxygenOS
   ZIP_NAME: HydrogenOS
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
