@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://dl.google.com/dl/android/aosp/coral-ota-qq3a.200805.001-aaec3261.zip
-  ROM_NAME: Pixel
-  ZIP_NAME: PixelQ
+  ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH1831/CPH1831EX_11_A.15_OTA_0150_all_201812211048.ozip
+  ROM_NAME: ColorOS
+  ZIP_NAME: ColorOS
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
