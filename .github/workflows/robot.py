@@ -15,7 +15,7 @@ dab = os.getenv('DOWNLOAD_AB')
 
 with pyrogram.Client('bot', os.getenv('API_ID'), os.getenv('API_HASH'), bot_token=os.getenv('BOT_TOKEN')) as client:
     client.send_message(
-        text=f"""<b>{zip} GSI For ARM 32 Binder 64 A/AB Devices</b>
+        text=f"""<b>{zip} GSI For A/AB Devices</b>
 
 <b>Firmware Base:</b> <a href="{romurl}">HERE</a>
 
