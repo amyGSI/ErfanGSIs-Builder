@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://ota-filesite.oss-cn-hangzhou.aliyuncs.com/SWImage/500002276
-  ROM_NAME: Generic
-  ZIP_NAME: HMD
+  ROM_URL: https://mva1.androidfilehost.com/dl/ca3a4WAedXYKkXqbBjVmoQ/1597143392/8889791610682893090/G981BXXU3ATFG_G981BOXM3ATFG_XEC.zip
+  ROM_NAME: OneUI
+  ZIP_NAME: OneUI
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
