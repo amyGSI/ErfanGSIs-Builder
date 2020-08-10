@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZS630KL/UL-ASUS_I01WD-ASUS-16.1220.1909.194-1.1.1-user.zip
-  ROM_NAME: ZenUI
-  ZIP_NAME: ZenUI
+  ROM_URL: https://dl.google.com/dl/android/aosp/coral-ota-qq3a.200805.001-aaec3261.zip
+  ROM_NAME: Pixel
+  ZIP_NAME: PixelQ
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
