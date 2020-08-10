@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX2020_11_OTA_0330_all_L57BVJ63NK5r.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_URL: http://download.h2os.com/OnePlus8/DP/OnePlus8Hydrogen_15_OTA_0020_all_2008081530_23e8c4d149d943a6.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: HydrogenOS
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
