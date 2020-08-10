@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/moto/evert/official/RETEU/XT1926-2_EVERT_RETEU_DS_9.0_PPWS29.116-20-20_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
-  ROM_NAME: Moto
-  ZIP_NAME: Moto-64
+  ROM_URL: http://bigota.d.miui.com/V12.0.0.3.QEJMIXM/miui_POCOF1Global_V12.0.0.3.QEJMIXM_717b8159c6_10.0.zip
+  ROM_NAME: MIUI
+  ZIP_NAME: MIUI 12 64
   TZ: Europe/London
   MIR: gof
 jobs:
