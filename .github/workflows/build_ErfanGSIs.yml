@@ -3,7 +3,7 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH1723/M6763A_11_OTA_0440_all_G49MykTHfRVW.ozip
+  ROM_URL: https://download.c.realme.com/osupdate/RMX2020_11_OTA_0330_all_L57BVJ63NK5r.ozip
   ROM_NAME: ColorOS
   ZIP_NAME: ColorOS
   TZ: Asia/Ho_Chi_Minh
