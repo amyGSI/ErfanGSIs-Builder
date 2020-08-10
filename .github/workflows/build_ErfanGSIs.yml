@@ -4,7 +4,7 @@ on: [push]
 
 env:
   ROM_URL: https://groot.drk1.workers.dev/0:/OnePlus8ProHydrogen_15_OTA_0020_all_2008081530_b221f92041374dd0.zip
-  ROM_NAME: OxygenOS
+  ROM_NAME: Generic
   ZIP_NAME: HydrogenOS
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
