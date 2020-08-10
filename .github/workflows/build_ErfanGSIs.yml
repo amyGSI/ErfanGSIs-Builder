@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/shapeshiftos/riva/ShapeShiftOS_Torchic-1.1.1_riva-10.0-20200806-0759-OFFICIAL.zip
+  ROM_URL: https://qc2.androidfilehost.com/dl/c0mqdK4PXWBkZ9nqcecQoQ/1597177358/4349826312261613051/3186-kfhost.net-X525BAW10f_00_OPEN_SCA_DS_OP_0913.kdz
   ROM_NAME: Generic
-  ZIP_NAME: ShapeShiftOS
+  ZIP_NAME: LG
   TZ: Europe/London
   MIR: gof
 jobs:
