@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://ota.volla.tech/builds/volla-9.0-20200702-nightly-k63v2_64_bsp-signed.zip
-  ROM_NAME: Generic
-  ZIP_NAME: VollaOS
+  ROM_URL: https://ia903107.us.archive.org/30/items/l19041l608lenovoarizona20191022user/L19041%20-%20L608_LENOVO_Arizona_20191022_user.zip
+  ROM_NAME: ZUI
+  ZIP_NAME: ZUI
   TZ: Europe/London
   MIR: gof
 jobs:
