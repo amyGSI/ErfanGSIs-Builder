@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://bigota.d.miui.com/20.8.6/miui_LMI_20.8.6_128cd6e279_11.0.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUI12-R
+  ROM_URL: https://downloads.sourceforge.net/project/i-o-n/device/xiaomi/onclite/ion-2.9.a-EOL-onclite-20200809-1947-OFFICIAL-Release.zip?r=android-app%3A%2F%2Fnekox.messenger%2F&ts=1597145670&use_mirror=svwh
+  ROM_NAME: Generic
+  ZIP_NAME: ionOS
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
