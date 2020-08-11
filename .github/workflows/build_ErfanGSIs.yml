@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_casuarina_casuarinaopen/cbbeb0c9a3ac16338023f33e51e28456e7a65a49.zip
-  ROM_NAME: VOS
-  ZIP_NAME: VOS
+  ROM_URL: http://download.h2os.com/OnePlus7T/MP/OnePlus7THydrogen_14.H.13_OTA_013_all_2005131949_e0faf0194a4049ba.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: HydrogenOS
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
