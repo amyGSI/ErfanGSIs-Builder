@@ -8,6 +8,8 @@ env:
   ZIP_NAME: MIUI12-R
   TZ: Europe/London
   MIR: gof
+  NOTES:
+
 jobs:
   build:
     runs-on: ubuntu-latest
