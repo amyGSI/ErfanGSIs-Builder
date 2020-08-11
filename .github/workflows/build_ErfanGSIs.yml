@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://otbot.adyatan.workers.dev/UL-ASUS_X00T-WW-16.2017.2007.084-user.zip
-  ROM_NAME: ZenUI
-  ZIP_NAME: ZenUI
+  ROM_URL: https://otbot.adyatan.workers.dev/NX629J_Z69_EN_WPJ0O_V210.zip
+  ROM_NAME: Generic
+  ZIP_NAME: Nubia
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
