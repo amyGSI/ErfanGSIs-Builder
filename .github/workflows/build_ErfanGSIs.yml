@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://download.h2os.com/OnePlus7T/MP/OnePlus7THydrogen_14.H.13_OTA_013_all_2005131949_e0faf0194a4049ba.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: HydrogenOS
+  ROM_URL: https://otbot.adyatan.workers.dev/Vivo_X50_Lite_PD1982F_EX_A_3.8.5_LA.UM.8.11.r1-01200_SM6125_QPST_(by_vivofirmware.com).zip
+  ROM_NAME: Generic
+  ZIP_NAME: FuntouchOS
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
