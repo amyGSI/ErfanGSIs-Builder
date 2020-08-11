@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.9.0.QDLMIXM/daisy_global_images_V11.0.9.0.QDLMIXM_20200805.0000.00_10.0_e1ea175e5b.tgz
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUI
+  ROM_URL: https://mirrors.lolinet.com/firmware/moto/river/official/RETEU/XT1962-6_RIVER_RETEU_10_QPUS30.52-16-2-2_cid50_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
+  ROM_NAME: Moto
+  ZIP_NAME: Moto
   TZ: Europe/London
   MIR: gof
   MIR2: wet
-  NOTES: "Smaller partition size!"
+  NOTES: "A few Moto may come tonight as I try to get a 64 bit gsi which fits in channel's stock layout"
 
 jobs:
   build:
