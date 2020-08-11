@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://oxygenos.oneplus.net/NordOxygen_14_OTA_005_all_2007312151_d1f7295e1ae8422e.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL: https://otbot.adyatan.workers.dev/Sony_Xperia_10_I4113_Dual_53.0.A.4.74_1318-2134_R10A_(by_xperiastockrom.com).zip
+  ROM_NAME: AOSP
+  ZIP_NAME: Xperia
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
