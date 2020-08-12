@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/xiaomi.eu_multi_HMS2_V12.0.4.0.PEFCNXM_v12-9.zip
-  ROM_NAME: MIUI-Binder
-  ZIP_NAME: MIUI12-32
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus7ProOxygen_21.E.28_OTA_028_all_2007240026_68379f9d2eb74977.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: OxygenOS
   TZ: Europe/London
   MIR: gof
   MIR2: wet
-  NOTES: "32 Bit GSI, not binder"
+  NOTES: "#Requested"
 
 jobs:
   build:
