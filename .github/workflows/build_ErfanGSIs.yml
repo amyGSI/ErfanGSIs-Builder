@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://get.pixelexperience.org/TmtkTFYwTjVRMHVlSnBLYTNYYUU4ZWlmWHEwVHZ6eFFkaHZDcUtYQ052QU5iVmNpRVFsQU9EN3c0MHFYK2QvMXFLeHpJdVpuUUgvVStzOXorb0hVZXRmeHdXejlMcXprWXBab0UxUTRUUk09/PixelExperience_Plus_marlin-10.0-20200712-1129-OFFICIAL.zip
-  ROM_NAME: Generic
-  ZIP_NAME: Pixel Experience Plus
+  ROM_URL: http://tdrive.manofuranium.workers.dev/xiaomi.eu_multi_HMS2_V12.0.4.0.PEFCNXM_v12-9.zip
+  ROM_NAME: MIUI-Binder
+  ZIP_NAME: MIUI12-32
   TZ: Europe/London
   MIR: gof
   MIR2: wet
-  NOTES: "#REQUESTED"
+  NOTES: "32 Bit GSI, not binder"
 
 jobs:
   build:
