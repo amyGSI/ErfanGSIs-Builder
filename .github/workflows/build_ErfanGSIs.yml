@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/moto/river/official/RETEU/XT1962-6_RIVER_RETEU_10_QPUS30.52-16-2-2_cid50_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
+  ROM_URL: https://mirrors.lolinet.com/firmware/moto/fiji/official/RETAIL/FIJI_RETAIL_9.0_POBS29.288-18-1_2007_200706_user_SIGN_010_SVC.zipT_CFC.xml.zip
   ROM_NAME: Moto
   ZIP_NAME: Moto
   TZ: Europe/London
   MIR: gof
   MIR2: wet
-  NOTES: "A few Moto may come tonight as I try to get a 64 bit gsi which fits in channel's stock layout"
+  NOTES: "#REQUESTED"
 
 jobs:
   build:
