@@ -3,7 +3,7 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://download.pixelexperience.org/changelog/lavender/PixelExperience_lavender-10.0-20200726-1816-OFFICIAL.zip
+  ROM_URL: https://get.pixelexperience.org/M0lBR01ad3dJR3VaWkZSWU00RS9KTm5XRTBPSzFTdHBXazdDdjJsS0VwbzErNHhYUWpFcWxnSW1NR1R1NGFkK2VLWE0vdDEzSE9kcGJGRUloakdxbFhqSEJDTjZSSVphMndMQW9TbkxHd1U9/PixelExperience_marlin-10.0-20200712-1048-OFFICIAL.zip
   ROM_NAME: Generic
   ZIP_NAME: Pixel Experience
   TZ: Europe/London
