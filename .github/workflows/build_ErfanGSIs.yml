@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/moto/fiji/official/RETAIL/FIJI_RETAIL_9.0_POBS29.288-18-1_2007_200706_user_SIGN_010_SVC.zipT_CFC.xml.zip
-  ROM_NAME: Moto
-  ZIP_NAME: Moto
+  ROM_URL: https://download.pixelexperience.org/changelog/lavender/PixelExperience_lavender-10.0-20200726-1816-OFFICIAL.zip
+  ROM_NAME: Generic
+  ZIP_NAME: Pixel Experience
   TZ: Europe/London
   MIR: gof
   MIR2: wet
