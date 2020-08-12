@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://get.pixelexperience.org/M0lBR01ad3dJR3VaWkZSWU00RS9KTm5XRTBPSzFTdHBXazdDdjJsS0VwbzErNHhYUWpFcWxnSW1NR1R1NGFkK2VLWE0vdDEzSE9kcGJGRUloakdxbFhqSEJDTjZSSVphMndMQW9TbkxHd1U9/PixelExperience_marlin-10.0-20200712-1048-OFFICIAL.zip
+  ROM_URL: https://get.pixelexperience.org/TmtkTFYwTjVRMHVlSnBLYTNYYUU4ZWlmWHEwVHZ6eFFkaHZDcUtYQ052QU5iVmNpRVFsQU9EN3c0MHFYK2QvMXFLeHpJdVpuUUgvVStzOXorb0hVZXRmeHdXejlMcXprWXBab0UxUTRUUk09/PixelExperience_Plus_marlin-10.0-20200712-1129-OFFICIAL.zip
   ROM_NAME: Generic
-  ZIP_NAME: Pixel Experience
+  ZIP_NAME: Pixel Experience Plus
   TZ: Europe/London
   MIR: gof
   MIR2: wet
