@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/nusantaraproject/onclite/Nusantara_v1.0-onclite-11082020-OFFICIAL-0355.zip?r=&ts=1597202402&use_mirror=deac-riga
-  ROM_NAME: Generic
-  ZIP_NAME: Nusantara
+  ROM_URL: https://otbot.adyatan.workers.dev/B2N-347C-0-00CN-B04-update.zip
+  ROM_NAME: AOSP
+  ZIP_NAME: Nokia
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
