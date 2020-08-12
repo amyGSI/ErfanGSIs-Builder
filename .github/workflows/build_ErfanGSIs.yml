@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://otbot.adyatan.workers.dev/Sony_Xperia_10_I4113_Dual_53.0.A.4.74_1318-2134_R10A_(by_xperiastockrom.com).zip
-  ROM_NAME: AOSP
-  ZIP_NAME: Xperia
+  ROM_URL: https://downloads.sourceforge.net/project/nusantaraproject/onclite/Nusantara_v1.0-onclite-11082020-OFFICIAL-0355.zip?r=&ts=1597202402&use_mirror=deac-riga
+  ROM_NAME: Generic
+  ZIP_NAME: Nusantara
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
