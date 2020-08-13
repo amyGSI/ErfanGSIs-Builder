@@ -35,6 +35,9 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
     echo "::set-env name=DOWNLOAD_A::$(./transfer $MIR "$ZIP_NAME-Aonly-$sourcever2-$date2-amyGSI.zip" | grep -o -P '(?<=Download Link: )\S+')"
     echo "::set-env name=DOWNLOAD_AB::$(./transfer $MIR "$ZIP_NAME-AB-$sourcever2-$date2-amyGSI.zip" | grep -o -P '(?<=Download Link: )\S+')"
 
+    echo "::set-env name=MIRROR_A::$(./transfer $MIR2 "$ROM-AB-$sourcever2-$date2-ErfanGSI.7z" | grep -o -P '(?<=Download Link: )\S+')"
+    echo "::set-env name=MIRROR_AB::$(./transfer $MIR2 "$ROM-AB-$sourcever2-$date2-ErfanGSI.7z" | grep -o -P '(?<=Download Link: )\S+')
+
     SYNC_END=$(date +"%s")
     SYNC_DIFF=$((SYNC_END - SYNC_START))
     telegram -M -C "`printenv ROM_NAME` - upload completed in $((SYNC_DIFF / 60)) minute(s) and $((SYNC_DIFF % 60)) seconds."
