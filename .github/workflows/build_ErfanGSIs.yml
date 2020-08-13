@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://dl-res.flymeos.com/Firmware/Flyme/M6T/6.3.6.0/intl/20200724092426/b047162d/update.zip
-  ROM_NAME: Flyme
-  ZIP_NAME: Flyme6
+  ROM_URL: https://build.aospa.co/updates/lavender/pa-quartz-4-lavender-20200718.zip
+  ROM_NAME: Generic
+  ZIP_NAME: ParanoidAndroid
   TZ: Europe/London
   MIR: trs
   MIR2: tmp
-  NOTES: "None"
+  NOTES: "QUALCOMM ONLY! #QSSI #Requested #Experimental"
 
 jobs:
   build:
