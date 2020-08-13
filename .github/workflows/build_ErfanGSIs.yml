@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://qc2.androidfilehost.com/dl/4bi7etGZFVIphxXPv88wBQ/1597394101/4349826312261728419/stockrom.net_A107MUBS4ATB5_A107MOWO4ATAB_ZTO.zip
-  ROM_NAME: OneUI
-  ZIP_NAME: OneUI
+  ROM_URL: http://dl-res.flymeos.com/Firmware/Flyme/M6T/6.3.6.0/intl/20200724092426/b047162d/update.zip
+  ROM_NAME: Flyme
+  ZIP_NAME: Flyme6
   TZ: Europe/London
-  MIR: gof
-  MIR2: wet
-  NOTES: "#Requested #Experimental"
+  MIR: trs
+  MIR2: tmp
+  NOTES: "None"
 
 jobs:
   build:
