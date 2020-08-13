@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://otbot.adyatan.workers.dev/B2N-347C-0-00CN-B04-update.zip
-  ROM_NAME: AOSP
-  ZIP_NAME: Nokia
+  ROM_URL: https://otbot.adyatan.workers.dev/Nokia_1_Plus_OSTLA_ANT-0980-0-00WW-B02_000_OST.zip
+  ROM_NAME: Generic:HMD
+  ZIP_NAME: HMD
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
