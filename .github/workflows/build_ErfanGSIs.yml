@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus7ProOxygen_21.E.28_OTA_028_all_2007240026_68379f9d2eb74977.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL: https://qc2.androidfilehost.com/dl/4bi7etGZFVIphxXPv88wBQ/1597394101/4349826312261728419/stockrom.net_A107MUBS4ATB5_A107MOWO4ATAB_ZTO.zip
+  ROM_NAME: OneUI
+  ZIP_NAME: OneUI
   TZ: Europe/London
   MIR: gof
   MIR2: wet
-  NOTES: "#Requested"
+  NOTES: "#Requested #Experimental"
 
 jobs:
   build:
