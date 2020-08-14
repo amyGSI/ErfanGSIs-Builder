@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus8ProOxygen_15.O.21_OTA_021_all_2007160051_downgrade_65eeb8e408d44a1d.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL:  https://build.aospa.co/updates/lavender/pa-quartz-4-lavender-20200718.zip
+  ROM_NAME: Generic
+  ZIP_NAME: ParanoidAndroid
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
