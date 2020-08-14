@@ -1,0 +1,74 @@
+name: GSI Build
+
+on: [push]
+
+env:
+  ROM_URL: https://dl.google.com/dl/android/aosp/coral-qq3a.200805.001-factory-875379d2.zip
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel
+  TZ: Europe/London
+  MIR: trs
+  MIR2: gof
+  NOTES: "#Requested #Experimental"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+       - name: Checkout
+         uses: actions/checkout@master
+
+       - name: Initializing telegram bot
+         env:
+              TOKEN: ${{ secrets.BOT_TOKEN }}
+
+         run: |
+              sudo install telegram /usr/bin
+              chmod +x build/initial.sh
+              . build/initial.sh
+
+       - name: Set up python
+         uses: actions/setup-python@v2
+         with:
+           python-version: '3.8.2'
+ 
+       - name: Install python requirements
+         run: |
+              pip install pyrogram tgcrypto
+
+       - name: Clone ErfanGSI Source Code
+         run: git clone --recurse-submodules https://github.com/amyGSI/ErfanGSIs.git
+       - name: Setting up ErfanGSI requirements
+         run: |
+              sudo chmod -R 777 ErfanGSIs
+              cd ErfanGSIs
+              sudo bash setup.sh
+
+       - name: Porting GSI
+         env:
+              TOKEN: ${{ secrets.BOT_TOKEN }}
+              
+         run: |
+               chmod +x build/dyn.sh
+               . build/dyn.sh
+
+       - name: Copy and rename A-only build info
+         run: cp ErfanGSIs/output/*Aonly*.txt Aonly.txt
+
+       - name: Print A-Only build info
+         run: |
+              cat ErfanGSIs/output/*Aonly*.txt
+
+       - name: Print AB build info
+         run: |
+              cat ErfanGSIs/output/*-AB-*.txt
+
+       - name: Send build info to Telegram
+         env:
+              CHAT_ID: ${{ secrets.CHAT_ID }}
+              BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+              API_ID: ${{ secrets.API_ID }}
+              API_HASH: ${{ secrets.API_HASH }}
+         run: |
+              python .github/workflows/robot.py
