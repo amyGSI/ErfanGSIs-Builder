@@ -8,7 +8,7 @@ env:
   ZIP_NAME: ParanoidAndroid
   TZ: Europe/London
   MIR: trs
-  MIR2: tmp
+  MIR2: gof
   NOTES: "QUALCOMM ONLY! #QSSI #Requested #Experimental"
 
 jobs:
