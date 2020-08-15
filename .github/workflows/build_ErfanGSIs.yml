@@ -3,7 +3,7 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://ia803005.us.archive.org/14/items/l78051/L78051_11.0.575_GLOBAL_ROM_by_boycracked.com.zip.zip
+  ROM_URL: http://download1346.mediafire.com/welj2kqayhpg/u9kld56a9dwezib/ROMProvider.COM_L79031_ROW_OPEN_USER_Q00114.1a_Q_ROW_12.0.099_ST_200721_qpst.zip
   ROM_NAME: ZUI
   ZIP_NAME: ZUI
   TZ: Asia/Ho_Chi_Minh
