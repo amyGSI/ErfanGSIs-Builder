@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL:  https://build.aospa.co/updates/lavender/pa-quartz-4-lavender-20200718.zip
-  ROM_NAME: Generic
-  ZIP_NAME: ParanoidAndroid
+  ROM_URL: https://ia803005.us.archive.org/14/items/l78051/L78051_11.0.575_GLOBAL_ROM_by_boycracked.com.zip.zip
+  ROM_NAME: ZUI
+  ZIP_NAME: ZUI
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
