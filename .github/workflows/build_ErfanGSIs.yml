@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://download1346.mediafire.com/welj2kqayhpg/u9kld56a9dwezib/ROMProvider.COM_L79031_ROW_OPEN_USER_Q00114.1a_Q_ROW_12.0.099_ST_200721_qpst.zip
-  ROM_NAME: ZUI
-  ZIP_NAME: ZUI
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus8Oxygen_15_OTA_0030_all_2008081530_4dc587d23b294492.zip  ZIP_NAME: ZUI
+  ROM_NAME: OxygenOS
+  ZIP_NAME: OxygenOS
   TZ: Asia/Ho_Chi_Minh
   MIR: gof
 jobs:
