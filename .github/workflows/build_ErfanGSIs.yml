@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus6Oxygen_22_OTA_047_all_2007191515_bd6f7476887846cb.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL: https://srv-file21.gofile.io/download/AJ1Z5a/PixelExperience_herolte-10.0-20200814-2219-OFFICIAL.zip
+  ROM_NAME: Generic
+  ZIP_NAME: PixelExperience
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
 jobs:
