@@ -3,11 +3,11 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus8Oxygen_15_OTA_0030_all_2008081530_4dc587d23b294492.zip  ZIP_NAME: ZUI
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus6Oxygen_22_OTA_047_all_2007191515_bd6f7476887846cb.zip
   ROM_NAME: OxygenOS
   ZIP_NAME: OxygenOS
   TZ: Asia/Ho_Chi_Minh
-  MIR: gof
+  MIR: wet
 jobs:
   build:
     runs-on: ubuntu-latest
