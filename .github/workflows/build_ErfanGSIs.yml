@@ -3,11 +3,12 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://srv-file21.gofile.io/download/AJ1Z5a/PixelExperience_herolte-10.0-20200814-2219-OFFICIAL.zip
+  ROM_URL: https://1pwn.tk/android/ocean/CartelQ/CartelCAF-1.0-ocean-08232020-OFFICIAL.zip
   ROM_NAME: Generic
-  ZIP_NAME: PixelExperience
+  ZIP_NAME: CartelCAF
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
+  NOTES: "#EXCLUSIVE, CAF based"
 jobs:
   build:
     runs-on: ubuntu-latest
