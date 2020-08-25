@@ -3,12 +3,12 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://1pwn.tk/android/ocean/CartelQ/CartelCAF-1.0-ocean-08232020-OFFICIAL.zip
-  ROM_NAME: Generic
-  ZIP_NAME: CartelCAF
+  ROM_URL: https://mirrors.lolinet.com/firmware/moto/astro/official/RETLA/XT2073-2_ASTRO_RETLA_10_QPLS30.62-22-3_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
+  ROM_NAME: Moto
+  ZIP_NAME: Moto
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
-  NOTES: "#EXCLUSIVE, CAF based"
+  NOTES: "#REQUESTED"
 jobs:
   build:
     runs-on: ubuntu-latest
