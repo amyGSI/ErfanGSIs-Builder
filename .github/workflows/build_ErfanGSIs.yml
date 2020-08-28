@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://iweb.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms//xiaomi.eu/MIUI-WEEKLY-RELEASES/20.6.18/xiaomi.eu_multi_HMNote5Pro_20.6.18_v12-9.zip
-  ZIP_NAME: MIUI
-  ROM_NAME: MIUI
+  ROM_URL: https://download.c.realme.com/osupdate/RMX1801EX_11_OTA_2100_all_oAjT03gY1ZrA.ozip
+  ROM_NAME: ColorOS
+  ZIP_NAME: ColorOS
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
   NOTES: "#REQUESTED"
