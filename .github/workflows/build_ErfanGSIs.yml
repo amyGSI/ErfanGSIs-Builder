@@ -7,7 +7,7 @@ env:
   ROM_NAME: ColorOS
   ZIP_NAME: ColorOS
   TZ: Asia/Ho_Chi_Minh
-  MIR: wet
+  MIR: gof
   NOTES: "#REQUESTED"
 jobs:
   build:
