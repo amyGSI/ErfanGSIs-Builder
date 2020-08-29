@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX1801EX_11_OTA_2100_all_oAjT03gY1ZrA.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l79031/L79031_ROW_SECURE_USER_Q00114.1a_Q_ROW_12.0.091_ST_200719_qpst.zip  ROM_NAME: ColorOS
+  ZIP_NAME: ZUI
+  ROM_NAME: ZUI
   TZ: Asia/Ho_Chi_Minh
   MIR: tsh
   NOTES: "#REQUESTED"
