@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://deac-ams.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-WEEKLY-RELEASES/20.8.27/xiaomi.eu_multi_MIMAX3_20.8.27_v12-10.zip
-  ZIP_NAME: MIUI-WEEKLY
-  ROM_NAME: MIUI
+  ROM_URL: https://dlsvr04.asus.com.cn/pub/ASUS/ZenFone/ZS660KL/UL-ASUS_Z01QD_1-CN-16.0420.2006.30-1.1.159-user.zip
+  ZIP_NAME: ZenUI
+  ROM_NAME: ROG-CN
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
   NOTES: "#REQUESTED"
