@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://dlsvr04.asus.com.cn/pub/ASUS/ZenFone/ZS660KL/UL-ASUS_Z01QD_1-CN-16.0420.2006.30-1.1.159-user.zip
-  ZIP_NAME: ROG-CN
-  ROM_NAME: ZenUI
+  ROM_URL: https://mde1.androidfilehost.com/dl/90Oz4JSWVoJktVhskuiVbg/1598990569/8889791610682926720/OnePlus8ProOxygen_15_OTA_0050_all_2008282158_4f963821281.zip
+  ZIP_NAME: OxygenOS-R-DP4
+  ROM_NAME: OxygenOS
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
   NOTES: "#REQUESTED"
