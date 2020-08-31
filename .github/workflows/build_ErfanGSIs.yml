@@ -3,8 +3,8 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.2.0.QGGMIXM/miui_BEGONIAGlobal_V12.0.2.0.QGGMIXM_d7ccad5950_10.0.zip
-  ZIP_NAME: MIUI
+  ROM_URL: https://deac-ams.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-WEEKLY-RELEASES/20.8.27/xiaomi.eu_multi_MIMAX3_20.8.27_v12-10.zip
+  ZIP_NAME: MIUI-WEEKLY
   ROM_NAME: MIUI
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
