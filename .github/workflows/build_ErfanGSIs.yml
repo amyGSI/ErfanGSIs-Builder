@@ -3,12 +3,12 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://gitlab.com/expressluke/gsi/-/raw/master/Express-0.2-20200831-UNOFFICIAL-ARM64_A.img
-  ZIP_NAME: ExpressROM
-  ROM_NAME: Generic
+  ROM_URL: http://tdrive.manofuranium.workers.dev/xiaomi.eu_multi_HMS2_V12.0.4.0.PEFCNXM_v12-9.zip
+  ZIP_NAME: MIUI-32
+  ROM_NAME: MIUI-Binder
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
-  NOTES: "#OFFICIAL #EXCLUSIVE"
+  NOTES: "REQUESTED"
 jobs:
   build:
     runs-on: ubuntu-latest
