@@ -3,12 +3,12 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://tdrive.manofuranium.workers.dev/xiaomi.eu_multi_HMS2_V12.0.4.0.PEFCNXM_v12-9.zip
-  ZIP_NAME: MIUI-32
-  ROM_NAME: MIUI-Binder
+  ROM_URL: https://get.hentaios.com/download_full_build?token=ffb2822fe76e08c135d4e209969cc280fbd1bb0fda24e8e1aa447c0e8b3b00834cbc825311f1c8d327de837418894357
+  ZIP_NAME: HentaiOS
+  ROM_NAME: Generic
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
-  NOTES: "REQUESTED"
+  NOTES: " #REQUESTED"
 jobs:
   build:
     runs-on: ubuntu-latest
