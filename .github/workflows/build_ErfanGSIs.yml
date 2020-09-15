@@ -3,7 +3,7 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://get.hentaios.com/download_full_build?token=ffb2822fe76e08c135d4e209969cc280fbd1bb0fda24e8e1aa447c0e8b3b00834cbc825311f1c8d327de837418894357
+  ROM_URL: https://get.hentaios.com/download_full_build?token=8e5c200060e9c9b6fa05a81f585033429b3a93f622b144a284999c9419b507a3
   ZIP_NAME: HentaiOS
   ROM_NAME: Generic
   TZ: Asia/Ho_Chi_Minh
