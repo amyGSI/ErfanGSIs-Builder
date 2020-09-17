@@ -64,7 +64,7 @@ jobs:
          run: |
               cat ErfanGSIs/output/*-AB-*.txt
 
-       - name: Send build info to Telegram
+       - name: Sending build info to Telegram
          env:
               CHAT_ID: ${{ secrets.CHAT_ID }}
               BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
