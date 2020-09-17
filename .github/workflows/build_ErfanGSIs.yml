@@ -3,7 +3,7 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus8Oxygen_15_OTA_0110_all_2009081948_a2e9d3ab8c0642d4.zip
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus8ProOxygen_15_OTA_0110_all_2009081948_9175cfff3afc4fc0.zip
   ROM_NAME: OxygenOS
   ZIP_NAME: OxyegnOS
   TZ: Europe/London
