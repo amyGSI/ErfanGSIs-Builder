@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://build.aospa.co/updates/lavender/pa-quartz-4-lavender-20200718.zip
-  ROM_NAME: Generic
-  ZIP_NAME: ParanoidAndroid
+  ROM_URL: https://dl.google.com/dl/android/aosp/coral-qq3a.200805.001-factory-875379d2.zip
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel
   TZ: Europe/London
   MIR: trs
   MIR2: gof
-  NOTES: "QUALCOMM ONLY! #QSSI #Requested #Experimental"
+  NOTES: "#Requested #Experimental"
 
 jobs:
   build:
@@ -50,8 +50,8 @@ jobs:
               TOKEN: ${{ secrets.BOT_TOKEN }}
               
          run: |
-               chmod +x build/build.sh
-               . build/build.sh
+               chmod +x build/dyn.sh
+               . build/dyn.sh
 
        - name: Copy and rename A-only build info
          run: cp ErfanGSIs/output/*Aonly*.txt Aonly.txt
@@ -64,7 +64,7 @@ jobs:
          run: |
               cat ErfanGSIs/output/*-AB-*.txt
 
-       - name: Sending build info to Telegram
+       - name: Send build info to Telegram
          env:
               CHAT_ID: ${{ secrets.CHAT_ID }}
               BOT_TOKEN: ${{ secrets.BOT_TOKEN }}

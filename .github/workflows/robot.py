@@ -12,6 +12,9 @@ cat = os.getenv('CAT_FILE')
 romurl = os.getenv('ROM_URL')
 da = os.getenv('DOWNLOAD_A')
 dab = os.getenv('DOWNLOAD_AB')
+ma = os.getenv('MIRROR_A')
+mab = os.getenv('MIRROR_AB')
+notes = os.getenv('NOTES')
 
 with pyrogram.Client('bot', os.getenv('API_ID'), os.getenv('API_HASH'), bot_token=os.getenv('BOT_TOKEN')) as client:
     client.send_message(
@@ -22,8 +25,13 @@ with pyrogram.Client('bot', os.getenv('API_ID'), os.getenv('API_HASH'), bot_toke
 <b>Information:</b>
 <code>{cat}</code>
 
-<b>Download A-Only:</b> <a href="{da}">HERE</a>
-<b>Download AB:</b> <a href="{dab}">HERE</a>
+
+<b>Notes:</b>
+<i>{notes}</i>
+
+
+<b>Download A-Only:</b> <a href="{da}">HERE</a> | <a href="{ma}">Mirror</a>
+<b>Download A/B:</b> <a href="{dab}">HERE</a> | <a href="{mab}">Mirror</a>
 
 <b>@quxngGSI</b> - <i>Channel</i>: @quxngGSI
 
