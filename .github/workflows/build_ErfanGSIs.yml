@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus8ProOxygen_15_OTA_0110_all_2009081948_9175cfff3afc4fc0.zip
+  ROM_URL: https://dl.google.com/dl/android/aosp/walleye-qq3a.200805.001-factory-a3367352.zip
   ROM_NAME: OxygenOS
   ZIP_NAME: OxyegnOS
   TZ: Europe/London
   MIR: trs
   MIR2: gof
-  NOTES: "#Beta #OxygenOS #OnePlus #Android11"
+  NOTES: "#Stable #BotTest #Pixel #Pixel2 #Android10"
 
 jobs:
   build:
