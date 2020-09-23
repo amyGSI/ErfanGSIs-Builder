@@ -4,8 +4,8 @@ on: [push]
 
 env:
   ROM_URL: https://dl.google.com/dl/android/aosp/walleye-qq3a.200805.001-factory-a3367352.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxyegnOS
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel
   TZ: Europe/London
   MIR: trs
   MIR2: gof
