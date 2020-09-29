@@ -20,7 +20,7 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
                
     cd ErfanGSIs/output/
                
-    curl -sL https://git.io/file-transfer | sh
+    sudo wget "https://github.com/00p513-dev/pdup/raw/master/pdup" -o /usr/bin
 
     zip -r "$ZIP_NAME"-Aonly-"$sourcever2"-"$date2"-quxngGSI.zip *-Aonly-*.img
     zip -r "$ZIP_NAME"-AB-"$sourcever2"-"$date2"-quxngGSI.zip *-AB-*.img
@@ -31,12 +31,12 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
 
     SYNC_START=$(date +"%s")
     telegram -M -C "`printenv ROM_NAME` - starting upload..."
+    
+    pdup "$ZIP_NAME-Aonly-$sourcever2-$date2-amyGSI.zip"
+    echo "::set-env name=DOWNLOAD_A::$(cat url.txt")
 
-    echo "::set-env name=DOWNLOAD_A::$(./transfer $MIR "$ZIP_NAME-Aonly-$sourcever2-$date2-quxngGSI.zip" | grep -o -P '(?<=Download Link: )\S+')"
-    echo "::set-env name=DOWNLOAD_AB::$(./transfer $MIR "$ZIP_NAME-AB-$sourcever2-$date2-quxngGSI.zip" | grep -o -P '(?<=Download Link: )\S+')"
-
-    echo "::set-env name=MIRROR_A::$(./transfer $MIR2 "$ROM-AB-$sourcever2-$date2-ErfanGSI.7z" | grep -o -P '(?<=Download Link: )\S+')"
-    echo "::set-env name=MIRROR_AB::$(./transfer $MIR2 "$ROM-AB-$sourcever2-$date2-ErfanGSI.7z" | grep -o -P '(?<=Download Link: )\S+')
+    pdup "$ZIP_NAME-AB-$sourcever2-$date2-amyGSI.zip"
+    echo "::set-env name=DOWNLOAD_AB::$(cat url.txt")
 
     SYNC_END=$(date +"%s")
     SYNC_DIFF=$((SYNC_END - SYNC_START))
