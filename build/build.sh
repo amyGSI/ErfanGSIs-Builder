@@ -20,8 +20,8 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
                
     cd ErfanGSIs/output/
                
-    sudo wget "https://raw.githubusercontent.com/00p513-dev/pdup/master/pdup" -o /usr/bin/pdup
-    sudo chmod 777 /usr/bin/pdup
+    wget "https://raw.githubusercontent.com/00p513-dev/pdup/master/pdup" -o ~/pdup
+    sudo chmod 777 ~/pdup
 
     zip -r "$ZIP_NAME"-Aonly-"$sourcever2"-"$date2"-quxngGSI.zip *-Aonly-*.img
     zip -r "$ZIP_NAME"-AB-"$sourcever2"-"$date2"-quxngGSI.zip *-AB-*.img
@@ -33,10 +33,10 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
     SYNC_START=$(date +"%s")
     telegram -M -C "`printenv ROM_NAME` - starting upload..."
     
-    pdup "$ZIP_NAME-Aonly-$sourcever2-$date2-amyGSI.zip"
+    ~/pdup "$ZIP_NAME-Aonly-$sourcever2-$date2-amyGSI.zip"
     echo "::set-env name=DOWNLOAD_A::$(cat url.txt")
 
-    pdup "$ZIP_NAME-AB-$sourcever2-$date2-amyGSI.zip"
+    ~/pdup "$ZIP_NAME-AB-$sourcever2-$date2-amyGSI.zip"
     echo "::set-env name=DOWNLOAD_AB::$(cat url.txt")
 
     SYNC_END=$(date +"%s")
