@@ -20,7 +20,7 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
                
     cd ErfanGSIs/output/
                
-    sudo wget "https://github.com/00p513-dev/pdup/raw/master/pdup" -o /usr/bin/pdup
+    sudo wget "https://raw.githubusercontent.com/00p513-dev/pdup/master/pdup" -o /usr/bin/pdup
     sudo chmod 777 /usr/bin/pdup
 
     zip -r "$ZIP_NAME"-Aonly-"$sourcever2"-"$date2"-quxngGSI.zip *-Aonly-*.img
