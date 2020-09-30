@@ -3,13 +3,11 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://download.h2os.com/OnePlus8Pro/DP/OnePlus8ProHydrogen_15.H.19_OTA_019_all_2005301412_downgrade_336a08ea32aa4c88.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: HydrogenOS
+  ROM_URL: https://mirrorbits.lineageos.org/full/I01WD/20200925/lineage-17.1-20200925-nightly-I01WD-signed.zip
+  ROM_NAME: Generic
+  ZIP_NAME: Lineage
   TZ: Europe/London
-  MIR: trs
-  MIR2: gof
-  NOTES: "#Stable #BotTest #Pixel #Pixel1 #sailfish #Android10"
+  NOTES: "#Stable #BotTest #Android10"
 
 jobs:
   build:
