@@ -3,12 +3,12 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://netcologne.dl.sourceforge.net/project/havoc-os/oneplus3/Beta/Havoc-OS-v4.0-20200924-oneplus3-Beta.zip
-  ZIP_NAME: HavocOS-4
+  ROM_URL: https://1pwn.tk/R/RevengeOS-4.0-R-UNOFFICIAL-ocean-1236.zip
+  ZIP_NAME: RevengeOS
   ROM_NAME: Generic
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
-  NOTES: #Android11 #AndroidR #OnePlus3 #HavocOS
+  NOTES: Awww man! #Android11 #AndroidR #g7Power #ocean #RevengeOS
 jobs:
   build:
     runs-on: ubuntu-latest
