@@ -3,12 +3,12 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://1pwn.tk/R/RevengeOS-4.0-R-UNOFFICIAL-ocean-1236.zip
-  ZIP_NAME: RevengeOS
-  ROM_NAME: Generic
+  ROM_URL: https://otbot.adyatan.workers.dev/MIUITR_20.10.10_MI8LITE_PLATINA_M12-A10.zip
+  ZIP_NAME: MIUITR
+  ROM_NAME: MIUI
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
-  NOTES: Awww man! #Android11 #AndroidR #g7Power #ocean #RevengeOS
+  NOTES: #MIUI #MIUITR #MIUI12 #platina #Mi8Lite
 jobs:
   build:
     runs-on: ubuntu-latest
