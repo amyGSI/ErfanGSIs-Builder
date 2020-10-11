@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://build.aospa.co/updates/lavender/pa-quartz-4-lavender-20200718.zip
-  ROM_NAME: Generic
-  ZIP_NAME: ParanoidAndroid
+  ROM_URL: https://otbot.adyatan.workers.dev/MIUITR_20.10.10_MI8LITE_PLATINA_M12-A10.zip
+  ROM_NAME: MIUI
+  ZIP_NAME: MIUITR
   TZ: Europe/London
   MIR: trs
   MIR2: gof
-  NOTES: "QUALCOMM ONLY! #QSSI #Requested #Experimental"
+  NOTES: ""
 
 jobs:
   build:
