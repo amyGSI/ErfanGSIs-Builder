@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://dl.google.com/dl/android/aosp/coral-qq3a.200805.001-factory-875379d2.zip
-  ROM_NAME: Pixel
-  ZIP_NAME: Pixel
+  ROM_URL: https://otbot.adyatan.workers.dev/MIUITR_20.10.10_MI8LITE_PLATINA_M12-A10.zip
+  ROM_NAME: MIUI
+  ZIP_NAME: MIUITR
   TZ: Europe/London
   MIR: trs
   MIR2: gof
-  NOTES: "#Requested #Experimental"
+  NOTES: "#Dynamic #Experimental"
 
 jobs:
   build:
