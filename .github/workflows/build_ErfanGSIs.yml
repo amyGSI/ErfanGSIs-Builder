@@ -3,12 +3,12 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://otbot.adyatan.workers.dev/MIUITR_20.10.10_MI8LITE_PLATINA_M12-A10.zip
-  ZIP_NAME: MIUITR
-  ROM_NAME: MIUI
+  ROM_URL: https://downloads.sourceforge.net/project/pixeldustproject/ota/blueline/PD_eleven_alpha/PixelDust-Eleven-aosp-blueline-20201011-2304.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpixeldustproject%2Ffiles%2Flatest%2Fdownload&ts=1602526186
+  ZIP_NAME: PixelDust
+  ROM_NAME: Generic
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
-  NOTES: #MIUI #MIUITR #MIUI12 #platina #Mi8Lite
+  NOTES: "#pixeldust #blueline"
 jobs:
   build:
     runs-on: ubuntu-latest
