@@ -20,8 +20,7 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
                
     cd ErfanGSIs/output/
                
-    wget "https://raw.githubusercontent.com/00p513-dev/pdup/master/pdup" -o ~/pdup
-    sudo chmod 777 ~/pdup
+    curl -sL https://git.io/file-transfer | sh
 
     zip -r "$ZIP_NAME"-Aonly-"$sourcever2"-"$date2"-quxngGSI.zip *-Aonly-*.img
     zip -r "$ZIP_NAME"-AB-"$sourcever2"-"$date2"-quxngGSI.zip *-AB-*.img
@@ -32,12 +31,9 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
 
     SYNC_START=$(date +"%s")
     telegram -M -C "`printenv ROM_NAME` - starting upload..."
-    
-    ~/pdup "$ZIP_NAME-Aonly-$sourcever2-$date2-amyGSI.zip"
-    echo "::set-env name=DOWNLOAD_A::$(cat url.txt")
 
-    ~/pdup "$ZIP_NAME-AB-$sourcever2-$date2-amyGSI.zip"
-    echo "::set-env name=DOWNLOAD_AB::$(cat url.txt")
+    echo "::set-env name=DOWNLOAD_A::$(./transfer $MIR "$ZIP_NAME-Aonly-$sourcever2-$date2-quxngGSI.zip" | grep -o -P '(?<=Download Link: )\S+')"
+    echo "::set-env name=DOWNLOAD_AB::$(./transfer $MIR "$ZIP_NAME-AB-$sourcever2-$date2-quxngGSI.zip" | grep -o -P '(?<=Download Link: )\S+')"
 
     SYNC_END=$(date +"%s")
     SYNC_DIFF=$((SYNC_END - SYNC_START))
