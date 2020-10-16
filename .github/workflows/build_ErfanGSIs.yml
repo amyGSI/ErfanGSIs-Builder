@@ -3,12 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/pixeldustproject/ota/blueline/PD_eleven_alpha/PixelDust-Eleven-aosp-blueline-20201011-2304.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpixeldustproject%2Ffiles%2Flatest%2Fdownload&ts=1602526186
-  ZIP_NAME: PixelDust
+  ROM_URL: https://mirrorbits.lineageos.org/full/channel/20201011/lineage-17.1-20201011-nightly-channel-signed.zip
+  ZIP_NAME: Lineage
+  TG_NAME: "LineageOS 17.1"
   ROM_NAME: Generic
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
-  NOTES: "#pixeldust #blueline"
+  NOTES: "#lineage #channel"
 jobs:
   build:
     runs-on: ubuntu-latest
