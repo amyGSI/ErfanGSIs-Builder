@@ -3,12 +3,12 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mirrorbits.lineageos.org/full/I01WD/20200925/lineage-17.1-20200925-nightly-I01WD-signed.zip
+  ROM_URL: https://downloads.sourceforge.net/project/pixeldustproject/ota/blueline/PD_eleven_alpha/PixelDust-Eleven-aosp-blueline-20201011-2304.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpixeldustproject%2Ffiles%2Flatest%2Fdownload&ts=1602526186
+  ZIP_NAME: PixelDust
   ROM_NAME: Generic
-  ZIP_NAME: Lineage
-  TZ: Europe/London
-  NOTES: "#Stable #BotTest #Android10"
-
+  TZ: Asia/Ho_Chi_Minh
+  MIR: wet
+  NOTES: "#pixeldust #blueline"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -36,7 +36,7 @@ jobs:
               pip install pyrogram tgcrypto
 
        - name: Clone ErfanGSI Source Code
-         run: git clone --depth=1 --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git
+         run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git
        - name: Setting up ErfanGSI requirements
          run: |
               sudo chmod -R 777 ErfanGSIs

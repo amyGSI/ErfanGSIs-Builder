@@ -31,7 +31,9 @@ with pyrogram.Client('bot', os.getenv('API_ID'), os.getenv('API_HASH'), bot_toke
 <b>Download A-Only:</b> <a href="{da}">HERE</a>
 <b>Download A/B:</b> <a href="{dab}">HERE</a>
 
-<b>@quxngGSI</b> - <i>Channel</i>: @amyGSI
+
+<b>Notes: </b>{notes}
+<b>@amyGSI</b> - <i>Channel</i>: @amyGSI
 
 <a href="https://github.com/amyGSI/ErfanGSIs">Ported using ErfanGSIs fork</a>""",
         chat_id=os.getenv('CHAT_ID'),
