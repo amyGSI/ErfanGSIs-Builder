@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mirrorbits.lineageos.org/full/channel/20201011/lineage-17.1-20201011-nightly-channel-signed.zip
-  ZIP_NAME: Lineage
-  TG_NAME: "LineageOS 17.1"
+  ROM_URL: https://master.dl.sourceforge.net/project/extendedui/tissot/ExtendedUI_1.2.1_tissot-10.0-20200426-0322-OFFICIAL.zip
+  ZIP_NAME: ExtendedUI
+  TG_NAME: "ExtendedUI 1.2.1"
   ROM_NAME: Generic
   TZ: Asia/Ho_Chi_Minh
   MIR: wet
-  NOTES: "#lineage #channel"
+  NOTES: "#exUI #tissot"
 jobs:
   build:
     runs-on: ubuntu-latest
