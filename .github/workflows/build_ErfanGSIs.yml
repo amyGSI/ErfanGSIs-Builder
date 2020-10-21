@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://master.dl.sourceforge.net/project/extendedui/tissot/ExtendedUI_1.2.1_tissot-10.0-20200426-0322-OFFICIAL.zip
-  ZIP_NAME: ExtendedUI
-  TG_NAME: "ExtendedUI 1.2.1"
-  ROM_NAME: Generic
-  TZ: Asia/Ho_Chi_Minh
+  ROM_URL: https://doc-14-8k-docs.googleusercontent.com/docs/securesc/s12be63h46emjeudohlg8spg3tle1l6g/r79eh8m7cj54kktkflov6stnsj7ol4s4/1603320000000/01187829675333775993/10538182007965579340/1SFJVU6r_9eyf1rW0cxyO_0pvd0c25MGR?e=download&authuser=0&nonce=tvut5ifmfpcn4&user=10538182007965579340&hash=kmrep859um1snvege31ll5moqqkecj5a
+  ZIP_NAME: hentaiOS
+  TG_NAME: "hentaiOS Rika"
+  ROM_NAME: Pixel
+  TZ: America/Edmonton
   MIR: wet
-  NOTES: "#exUI #tissot"
+  NOTES: "#hentaiOS #crosshatch"
 jobs:
   build:
     runs-on: ubuntu-latest
