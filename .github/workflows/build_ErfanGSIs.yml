@@ -3,13 +3,14 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://doc-14-8k-docs.googleusercontent.com/docs/securesc/s12be63h46emjeudohlg8spg3tle1l6g/r79eh8m7cj54kktkflov6stnsj7ol4s4/1603320000000/01187829675333775993/10538182007965579340/1SFJVU6r_9eyf1rW0cxyO_0pvd0c25MGR?e=download&authuser=0&nonce=tvut5ifmfpcn4&user=10538182007965579340&hash=kmrep859um1snvege31ll5moqqkecj5a
-  ZIP_NAME: hentaiOS
-  TG_NAME: "hentaiOS Rika"
+  ROM_URL: https://dl.google.com/dl/android/aosp/redfin-rd1a.200810.020-factory-c3ea1715.zip
+  ZIP_NAME: Pixel
+  TG_NAME: "Pixel 5"
   ROM_NAME: Pixel
   TZ: America/Edmonton
   MIR: wet
-  NOTES: "#hentaiOS #crosshatch"
+  SCRIPT_NAME: PIXELDP.sh
+  NOTES: "#Pixel5"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -37,7 +38,7 @@ jobs:
               pip install pyrogram tgcrypto
 
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git
+         run: git clone --recurse-submodules https://github.com/amyGSI/AmyBakerTools ErfanGSIs
        - name: Setting up ErfanGSI requirements
          run: |
               sudo chmod -R 777 ErfanGSIs
