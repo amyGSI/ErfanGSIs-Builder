@@ -3,14 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://dl.google.com/dl/android/aosp/redfin-ota-rd1a.200810.020-7b6b7070.zip
-  ZIP_NAME: Pixel
-  TG_NAME: "Pixel 5"
-  ROM_NAME: Pixel
+  ROM_URL: https://mirrorbits.lineageos.org/full/tissot/20201020/lineage-17.1-20201020-nightly-tissot-signed.zip
+  ZIP_NAME: LineageOS
+  TG_NAME: "Lineage 17.1"
+  ROM_NAME: Generic
   TZ: America/Edmonton
   MIR: wet
-  SCRIPT_NAME: PIXELDP.sh
-  NOTES: "#Pixel5"
+  NOTES: "#Lineage #tissot"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -38,7 +37,7 @@ jobs:
               pip install pyrogram tgcrypto
 
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/amyGSI/AmyBakerTools ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/amyGSI/ErfanGSIs ErfanGSIs
        - name: Setting up ErfanGSI requirements
          run: |
               sudo chmod -R 777 ErfanGSIs
