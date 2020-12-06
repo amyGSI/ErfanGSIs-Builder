@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/moto/sofiar/official/RETAIL/SOFIAR_RETAIL_10_QPES30.79-124-5_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
-  ZIP_NAME: Moto
-  TG_NAME: "Moto"
-  ROM_NAME: Moto
+  ROM_URL: http://bigota.d.miui.com/9.6.27/miui_MIMAX3Global_9.6.27_c5abf79466_9.0.zip
+  ZIP_NAME: MIUI
+  TG_NAME: "MIUI"
+  ROM_NAME: MIUI
   TZ: America/Edmonton
   MIR: wet
-  NOTES: "#Moto #sofiar"
+  NOTES: "#MIUI #Pie"
 jobs:
   build:
     runs-on: ubuntu-latest
