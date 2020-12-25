@@ -3,13 +3,13 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.3.0.QCMINXM/pine_in_global_images_V11.0.3.0.QCMINXM_20201016.0000.00_10.0_in_779f008722.tgz
-  ZIP_NAME: MIUI
-  TG_NAME: "MIUI"
-  ROM_NAME: MIUI
+  ROM_URL: http://1pwn.tk/r.zip
+  ZIP_NAME: HarmonyOS
+  TG_NAME: "HarmonyOS"
+  ROM_NAME: Generic
   TZ: America/Edmonton
   MIR: wet
-  NOTES: "#MIUI #Q"
+  NOTES: "#HarmonyOS"
 jobs:
   build:
     runs-on: ubuntu-latest
