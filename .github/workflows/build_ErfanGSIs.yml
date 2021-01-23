@@ -4,13 +4,13 @@ on: [push]
 
 env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-  ROM_URL: http://otafs-cost.coloros.com/RMX2072/RMX2071_11.A.18_11801510_202012290223/patch/CHN/RMX2071/RMX2071_11.A.18_11801510_202012290223/RMX2071_11_OTA_11801510_all_3ofIeEGqtsQ4_5f4dd0e7519.ozip
-  ZIP_NAME: ColorOS
-  TG_NAME: "ColorOS"
-  ROM_NAME: ColorOS
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus5TOxygen_43_OTA_069_all_2010292144_76910d123e3940e5.zip
+  ZIP_NAME: OxygenOS
+  TG_NAME: "OxygenOS"
+  ROM_NAME: OxygenOS
   TZ: America/Edmonton
   MIR: wet
-  NOTES: "#ColorOS"
+  NOTES: "#OxygenOS"
 jobs:
   build:
     runs-on: ubuntu-latest
