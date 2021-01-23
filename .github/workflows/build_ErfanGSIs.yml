@@ -4,13 +4,13 @@ on: [push]
 
 env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus5TOxygen_43_OTA_069_all_2010292144_76910d123e3940e5.zip
-  ZIP_NAME: OxygenOS
-  TG_NAME: "OxygenOS"
-  ROM_NAME: OxygenOS
+  ROM_URL: https://downloads.sourceforge.net/project/pixelextended/Vince/PixelExtended_vince-11.0-20210123-1407-OFFICIAL.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpixelextended%2Ffiles%2Flatest%2Fdownload&ts=1611431061
+  ZIP_NAME: PixelExtended
+  TG_NAME: "Pixel Extended"
+  ROM_NAME: Generic
   TZ: America/Edmonton
   MIR: wet
-  NOTES: "#OxygenOS"
+  NOTES: "#PixelExtended"
 jobs:
   build:
     runs-on: ubuntu-latest
