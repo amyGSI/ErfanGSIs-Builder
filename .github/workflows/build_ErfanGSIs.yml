@@ -38,7 +38,7 @@ jobs:
               pip install pyrogram tgcrypto
 
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/nnippon/ErfanGSIs ErfanGSIs
        - name: Setting up ErfanGSI requirements
          run: |
               sudo chmod -R 777 ErfanGSIs
