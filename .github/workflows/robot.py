@@ -16,7 +16,7 @@ notes = os.getenv('NOTES')
 
 with pyrogram.Client('bot', os.getenv('API_ID'), os.getenv('API_HASH'), bot_token=os.getenv('BOT_TOKEN')) as client:
     client.send_message(
-        text=f"""<b>{zip} GSI For A/AB Devices</b>
+        text=f"""<b>{zip} ErfanGSI For A/AB Devices</b>
 
 <b>Firmware Base:</b> <a href="{romurl}">HERE</a>
 
@@ -31,11 +31,8 @@ with pyrogram.Client('bot', os.getenv('API_ID'), os.getenv('API_HASH'), bot_toke
 <b>Download A-Only:</b> <a href="{da}">HERE</a>
 <b>Download A/B:</b> <a href="{dab}">HERE</a>
 
-
-<b>Notes: </b>{notes}
-<b>@amyGSI</b> - <i>Channel</i>: @amyGSI
-
-<a href="https://github.com/amyGSI/ErfanGSIs">Ported using ErfanGSIs fork</a>""",
+<b>Built by amyGSI</b>
+""",
         chat_id=os.getenv('CHAT_ID'),
         parse_mode="html",
         disable_web_page_preview=True
