@@ -3,13 +3,14 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://1pwn.tk/r.zip
-  ZIP_NAME: HarmonyOS
-  TG_NAME: "HarmonyOS"
-  ROM_NAME: Generic
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+  ROM_URL: http://otafs-cost.coloros.com/RMX2072/RMX2071_11.A.18_11801510_202012290223/patch/CHN/RMX2071/RMX2071_11.A.18_11801510_202012290223/RMX2071_11_OTA_11801510_all_3ofIeEGqtsQ4_5f4dd0e7519.ozip
+  ZIP_NAME: ColorOS
+  TG_NAME: "ColorOS"
+  ROM_NAME: ColorOS
   TZ: America/Edmonton
   MIR: wet
-  NOTES: "#HarmonyOS"
+  NOTES: "#ColorOS"
 jobs:
   build:
     runs-on: ubuntu-latest
